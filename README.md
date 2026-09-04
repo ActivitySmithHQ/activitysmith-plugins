@@ -50,7 +50,7 @@ Add ActivitySmith as a remote MCP server using this URL:
 https://mcp.activitysmith.com/mcp
 ```
 
-Complete the ActivitySmith sign-in flow in your browser. See the [MCP setup guide](https://activitysmith.com/docs/mcp-server) for client-specific instructions.
+Complete the ActivitySmith sign-in flow in your browser. See the [MCP setup guide](https://activitysmith.com/integrations/mcp-server) for client-specific instructions.
 
 ## Try it
 
