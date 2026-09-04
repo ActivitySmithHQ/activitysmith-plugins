@@ -1,0 +1,16 @@
+{
+  "name": "activitysmith",
+  "displayName": "ActivitySmith",
+  "version": "1.0.0",
+  "description": "Send Push Notifications, show progress with Live Activities, update Lock Screen Widgets, and request remote approvals on iPhone and iPad through ActivitySmith's hosted MCP server.",
+  "author": {
+    "name": "ActivitySmith",
+    "email": "support@activitysmith.com"
+  },
+  "homepage": "https://activitysmith.com/integrations/mcp-server",
+  "repository": "https://github.com/ActivitySmithHQ/activitysmith-plugins",
+  "license": "MIT",
+  "keywords": ["activitysmith", "push-notifications", "live-activities", "remote-approvals", "ios", "mcp"],
+  "logo": "assets/icon.png",
+  "mcpServers": "./mcp.json"
+}

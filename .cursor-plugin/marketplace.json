@@ -1,0 +1,17 @@
+{
+  "name": "activitysmith-plugins",
+  "owner": {
+    "name": "ActivitySmith",
+    "email": "support@activitysmith.com"
+  },
+  "metadata": {
+    "description": "ActivitySmith's hosted MCP integration for AI agents."
+  },
+  "plugins": [
+    {
+      "name": "activitysmith",
+      "source": "plugins/activitysmith",
+      "description": "Send Push Notifications, show progress with Live Activities, update Lock Screen Widgets, and request remote approvals on iPhone and iPad."
+    }
+  ]
+}
