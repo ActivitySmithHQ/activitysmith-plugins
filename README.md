@@ -10,7 +10,7 @@ Your agent can:
 - Send remote approval requests and receive your decision.
 - Update the app icon badge count and review notification or activity history.
 
-The plugin connects your agent to ActivitySmith through [MCP](https://activitysmith.com/docs/mcp-server).
+The plugin connects your agent to ActivitySmith through [MCP](https://activitysmith.com/integrations/mcp-server).
 
 ## Get started
 
