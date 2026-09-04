@@ -35,6 +35,12 @@ Reviewer note:
 
 > This package connects to ActivitySmith over Streamable HTTP and OAuth. Users sign in to their ActivitySmith account and approve access. No local runtime or API key setup is required. Please review availability in both Cursor and Grok Bot. Remote approvals return the user's decision; the requesting agent remains responsible for the underlying action.
 
+## Connection details for reviewers
+
+The plugin connects to `https://mcp.activitysmith.com/mcp` over Streamable HTTP. OAuth discovery points to `https://activitysmith.com`, with authorization, token, and registration endpoints at `/oauth/authorize`, `/oauth/token`, and `/oauth/register`. Clients request `mcp:read` and `mcp:write` as needed and manage the user's OAuth credentials.
+
+ActivitySmith receives tool arguments and performs the requested operations in the authorized account. Notification content, activity updates, and approval requests may be delivered to paired devices. The package contains no credentials, executable hooks, or local telemetry. See ActivitySmith's [privacy policy](https://activitysmith.com/legal/privacy-policy) and [terms](https://activitysmith.com/legal/terms-of-service) for service practices.
+
 ## Fresh-install check before submitting
 
 1. Copy or symlink `plugins/activitysmith` into `~/.cursor/plugins/local/activitysmith`, following [Cursor's local testing instructions](https://cursor.com/docs/plugins). Check for an existing local package before creating that path.

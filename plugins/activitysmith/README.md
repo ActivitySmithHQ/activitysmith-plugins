@@ -1,39 +1,30 @@
 # ActivitySmith
 
-Connect your AI agent to your iPhone or iPad through ActivitySmith.
+[ActivitySmith](https://activitysmith.com) lets your AI agent send updates to your iPhone or iPad. Get Push Notifications when work finishes, follow progress with Live Activities, update Lock Screen Widgets, and respond to remote approval requests.
 
-- Send Push Notifications when work finishes or needs attention.
-- Show task progress with Live Activities on the Lock Screen.
-- Update values shown in Lock Screen Widgets.
-- Send remote approvals and receive your decision.
-- Update the App Icon Badge Count and review notification or activity history.
+The plugin connects to your ActivitySmith account through MCP.
 
-ActivitySmith returns approval decisions to the requesting agent. The agent remains responsible for waiting for the decision and carrying out the underlying action.
+## Get started
 
-## Connect your account
+1. Install [ActivitySmith for iPhone and iPad](https://apps.apple.com/us/app/activitysmith/id6752254835) and follow the setup steps to pair your device.
+2. [Add ActivitySmith to Cursor](https://cursor.com/install-mcp?name=activitysmith&config=eyJ1cmwiOiJodHRwczovL21jcC5hY3Rpdml0eXNtaXRoLmNvbS9tY3AifQ%3D%3D).
+3. Sign in to the same ActivitySmith account in your browser and approve the connection when prompted.
+4. Start a new chat and ask your agent to send you a push notification.
 
-You need an ActivitySmith account and the ActivitySmith iOS app with a paired device. Sending events requires an active trial or subscription. See [pricing](https://activitysmith.com/pricing).
-
-The plugin connects to `https://mcp.activitysmith.com/mcp` using Streamable HTTP and OAuth. Sign in to ActivitySmith and approve the requested access in your browser. No API key, CLI, or local server is needed.
-
-OAuth discovery points to `https://activitysmith.com`. The authorization, token, and client registration endpoints are `/oauth/authorize`, `/oauth/token`, and `/oauth/register` on that origin. Clients request `mcp:read` and `mcp:write` as needed. The package contains no credentials. Your MCP client manages OAuth credentials.
-
-The remote server receives tool arguments and performs the requested ActivitySmith operations in the authorized account. Notification content, activity updates, and approval requests may be delivered to paired devices. This package adds no local scripts or telemetry. ActivitySmith's service practices are described in its [privacy policy](https://activitysmith.com/legal/privacy-policy) and [terms](https://activitysmith.com/legal/terms-of-service).
+See the [installation guide](https://github.com/ActivitySmithHQ/activitysmith-plugins#connect-your-agent) for manual setup, other MCP clients, and Cursor Marketplace and Grok Bot availability.
 
 ## Try it
 
-- "Send me a push notification when this task finishes."
-- "Show the progress of this task with a Live Activity."
-- "Ask me for approval before deploying anything to production."
+> Send me a push notification when this task finishes.
 
-Use account-wide delivery for ordinary requests. Tags organize content; Channels optionally target users or devices when routing is needed.
+> Show the progress of this task with a Live Activity on my Lock Screen.
 
-## Installation status
+> Ask me for approval before deploying anything to production.
 
-The package is prepared for marketplace review. It is not yet listed in the Cursor, Grok Bot, or Grok Build marketplaces.
+ActivitySmith sends approval requests to your device and returns your decision to the agent. The agent handles the action you approved.
 
-For direct Cursor installation today, use the [ActivitySmith MCP setup guide](https://activitysmith.com/docs/mcp-server). Maintainers can test this directory as a local Cursor plugin using the [documented local plugin workflow](https://cursor.com/docs/plugins).
+## Help
 
-## Updates
+See the [MCP setup guide](https://activitysmith.com/docs/mcp-server) or contact [support@activitysmith.com](mailto:support@activitysmith.com).
 
-Tool descriptions, schemas, and execution stay on the hosted MCP server. Compatible server improvements do not require updating this package. Clients may need to reconnect or start a new session to refresh cached tools. Package metadata, endpoint, authentication, and breaking changes may still require a new package version and review.
+[Privacy policy](https://activitysmith.com/legal/privacy-policy) · [Terms of service](https://activitysmith.com/legal/terms-of-service)

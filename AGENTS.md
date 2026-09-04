@@ -1,6 +1,7 @@
 # ActivitySmith plugins
 
 - This public repository packages ActivitySmith's hosted MCP server. Keep backend implementation and credentials out of it.
+- READMEs and the GitHub description are for users discovering ActivitySmith. Lead with what it does, device/account setup, installation, and example requests. Mention MCP briefly as the connection method. Keep packaging choices, absent components, repository layout, and submission/review plans in maintainer docs; mention marketplace availability only where it affects installation.
 - Keep the integration MCP-only. Do not add skills, hooks, commands, local servers, or copied tool schemas unless a concrete client limitation requires them.
 - Keep one shared MCP configuration at `plugins/activitysmith/mcp.json`. Client manifests reference it relative to the plugin root.
 - Cursor and Grok Bot use the Cursor submission route. Grok Build uses the separate `xai-org/plugin-marketplace` catalog. Verify current requirements before submitting.
