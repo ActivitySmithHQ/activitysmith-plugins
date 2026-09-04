@@ -29,7 +29,7 @@ Submission values:
 
 Suggested description:
 
-> Send Push Notifications, show progress with Live Activities, update Lock Screen Widgets, and request remote approvals on iPhone and iPad through ActivitySmith's hosted MCP server.
+> Bring updates from your AI agents to your iPhone and iPad. Get notified when work finishes, follow progress on your Lock Screen, and respond when an agent needs your approval.
 
 Reviewer note:
 

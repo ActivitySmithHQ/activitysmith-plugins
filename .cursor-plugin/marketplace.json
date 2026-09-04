@@ -5,13 +5,13 @@
     "email": "support@activitysmith.com"
   },
   "metadata": {
-    "description": "ActivitySmith's hosted MCP integration for AI agents."
+    "description": "Bring updates from your AI agents to your iPhone and iPad. Get notified when work finishes, follow progress on your Lock Screen, and respond when an agent needs your approval."
   },
   "plugins": [
     {
       "name": "activitysmith",
       "source": "plugins/activitysmith",
-      "description": "Send Push Notifications, show progress with Live Activities, update Lock Screen Widgets, and request remote approvals on iPhone and iPad."
+      "description": "Bring updates from your AI agents to your iPhone and iPad. Get notified when work finishes, follow progress on your Lock Screen, and respond when an agent needs your approval."
     }
   ]
 }
