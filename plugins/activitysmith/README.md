@@ -7,11 +7,11 @@ The plugin connects to your ActivitySmith account through MCP.
 ## Get started
 
 1. Install [ActivitySmith for iPhone and iPad](https://apps.apple.com/us/app/activitysmith/id6752254835) and follow the setup steps to pair your device.
-2. [Add ActivitySmith to Cursor](https://cursor.com/install-mcp?name=activitysmith&config=eyJ1cmwiOiJodHRwczovL21jcC5hY3Rpdml0eXNtaXRoLmNvbS9tY3AifQ%3D%3D).
+2. Install ActivitySmith from the [Cursor Marketplace](https://cursor.com/marketplace/activitysmith), or search for **ActivitySmith** in Grok Bot's **Plugins** directory and click **Add**.
 3. Sign in to the same ActivitySmith account in your browser and approve the connection when prompted.
 4. Start a new chat and ask your agent to send you a push notification.
 
-See the [installation guide](https://github.com/ActivitySmithHQ/activitysmith-plugins#connect-your-agent) for manual setup, other MCP clients, and Cursor Marketplace and Grok Bot availability.
+See the [installation guide](https://github.com/ActivitySmithHQ/activitysmith-plugins#connect-your-agent) for direct Cursor installation, manual setup, and other MCP clients.
 
 ## Try it
 
